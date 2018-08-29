@@ -15,7 +15,7 @@ chlid_4 <- root_node$AddChild("Child_4")
 chlid_5 <- root_node$AddChild("Child_5")
 
 # Ans 3:- Creating a child node that originates from a particular node.
-sub_child<-child_1$AddChild("Sub_child")
+sub_child<-root_node$AddChild("Child_1")$AddChild("Sub_child")
 
 
 # Ans 4:- Encrypt data inside the root node.
