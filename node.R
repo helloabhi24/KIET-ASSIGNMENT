@@ -1,5 +1,5 @@
 # install "data.tree" package for making the nodes.
-install.package("data.tree")
+install.packages("data.tree")
 
 #import data.tree package through library function.
 library(data.tree)
